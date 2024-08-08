@@ -1,0 +1,28 @@
+body{
+    width: 300px;
+    color: aliceblue;
+   background-color: rgb(44, 53, 65);
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   justify-content: center;
+   align-items: center; 
+}
+#no_of_darkpattern{
+    font-size:xx-large;
+    font-weight: 900;
+    color: red;
+}
+#analyzeButton{
+    color: aliceblue;
+    margin-bottom: 10px;
+    background-color: rgb(131, 220, 42);
+    width: 70px;
+    border-radius: 20px;
+    border-color: transparent;
+    transition: all 100ms;
+}
+#analyzeButton:hover{
+    background-color: darkgreen;
+    width: 100px;
+}
